@@ -1,12 +1,12 @@
 body{
     font-family: "Roboto", "Open Sans";
     background-color: #060D2F;
-    color: yellow;
+    color: green;
     font-size: 30px;
 }
 
 header{
-    background-color: #060D2F;
+    background-color: #abb3da; 
 }
 
 
