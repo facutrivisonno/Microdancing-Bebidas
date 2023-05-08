@@ -4,26 +4,61 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="/css/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+rel="stylesheet" />
     <title>Microdancing Bebidas</title>
 </head>
 <body>
-    <header>
+    <header class="main-header">
+        <div class="main-header-top-bar">
+            <div class="logo">
+                <a href="/">Microdancing<span class="registrado">®</span></a>
+            </div>                
+            <form method="get" action="/search" class="search-bar">
+                <div class="bottom-search">
+                  <input type="text" placeholder="Search show" name="search">
+                </div>                        
+            </form>
+        </div>
+        
+        <a href="#" class="hamburguer-button">
+            <i class="fas fa-bars"></i>
+        </a>
+        
         <nav class="main-navbar">
-                <ul class="left-navbar">
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/products">Productos</a></li>
-                </ul>
-
-                <ul class="right-navbar">
-                    <li><a href="/users/login">Ingresa</a></li>
-                    <li><a href="/users/register">Crea tu cuenta</a></li>
-                </ul>
+            <ul class="left-navbar">
+                <li><a href="/">Home</a></li>
+                <li><a href="/products">Productos</a></li>
+                <li><a href="/#">Contacto</a></li>
+            </ul>
+            
+            <ul class="right-navbar">
+                <li><a href="/users/login">Ingresá</a></li>
+                <li><a href="/users/register">Crea tu cuenta</a></li>
+            </ul>        
         </nav>
+                            
     </header>
 </body>
 </html>
+
+<!-- <span class="nav-titulo">
+    
+</span>
+<ul class="left-navbar">
+    <a href="/">DHArena<span class="registrado">®</span></a>
+    <li><a href="/">Home</a></li>
+    <li><a href="/products">Productos</a></li>
+    <li><a href="/#">Contacto</a></li>
+</ul>
+
+<ul class="right-navbar">
+    <li><a href="/users/login">Ingresá</a></li>
+    <li><a href="/users/register">Crea tu cuenta</a></li>
+</ul> -->
+<!-- <i class="fas fa-bars" style="color: #fafafa;"></i> -->
